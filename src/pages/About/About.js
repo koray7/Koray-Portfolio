@@ -82,6 +82,8 @@ const About = () => {
                     <a href="mailto:softwarekoray@gmail.com" target="_blank" rel="noReferrer">
                         <img src="https://cdn.vox-cdn.com/thumbor/8fWz6qpiMYMsZhY4vrc9Vhl5yL8=/0x110:1320x770/fit-in/1200x600/cdn.vox-cdn.com/uploads/chorus_asset/file/21939811/newgmaillogo.jpg" id="social-logo" alt='Gmail' />
                     </a>
+                    <a href="https://drive.google.com/file/d/1u_mE9EFCArAh_hTZeUjJt5UYFhfpjPFD/view?usp=sharing" download="Koray-Resume.pdf" target="_blank" rel="noReferrer"><img src="https://www.conovercompany.com/wp-content/uploads/2019/06/wr-resumes-logo.png" id="social-logo" alt='Koray-Resume' />
+                    </a>
                 </div>
             </div>
         </div>
