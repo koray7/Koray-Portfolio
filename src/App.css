@@ -223,3 +223,20 @@ h4 {
 .main-page-logo{
   background-color: rgba(250, 250, 250, 0.5);
 }
+.time {
+  font-size: 2.5vw;
+  color:rgba(255, 248, 155);
+  border-radius: 2vw;
+  
+}
+.timeDiv{
+  position: fixed;
+  margin: 1vw -30vw auto 56vw;
+}
+.day{
+  display: flex;
+  font-size: 2vw;
+  color:rgba(255, 248, 155);
+  border-radius: 2vw;
+  margin: -1.3vw -2vw auto 0.4vw;
+}
