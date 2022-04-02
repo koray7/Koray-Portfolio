@@ -225,9 +225,9 @@ h4 {
 }
 .time {
   font-size: 2.5vw;
-  color:rgba(255, 248, 155);
+  color:rgb(254, 241, 87);
   border-radius: 2vw;
-  
+  font-weight: 700;
 }
 .timeDiv{
   position: fixed;
@@ -236,7 +236,7 @@ h4 {
 .day{
   display: flex;
   font-size: 2vw;
-  color:rgba(255, 248, 155);
+  color:rgb(84, 138, 255);
   border-radius: 2vw;
-  margin: -1.3vw -2vw auto 0.5vw;
+  margin: -1.3vw -2vw auto 0.8vw;
 }
