@@ -230,7 +230,7 @@ h4 {
   font-weight: 700;
 }
 .timeDiv{
-  position: fixed;
+  position: absolute;
   margin: 1vw -30vw auto 56vw;
 }
 .day{
