@@ -87,7 +87,7 @@ h4 {
   background-color: rgb(81, 163, 234, .4);
 }
 .projectsPage{
-  background-image: url("https://images.unsplash.com/photo-1623520527569-fee1da87f598?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHNvZnR3YXJlJTIwZW5naW5lZXJ8ZW58MHx8MHx8&w=1000&q=80");
+  background-image: url("https://s3.amazonaws.com/gameartpartnersimagehost/wp-content/uploads/2017/12/Flat_Game_Background_1.jpg");
   background-repeat: no-repeat;
   text-align: center;
   -webkit-background-size: cover;
@@ -248,19 +248,17 @@ h4 {
 .self-img-div {
   clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
   width: 100%; height:100%;
-  background-color: rgba(199, 236, 238,.3);
+  background-color: rgba(35, 167, 174, 0.2);
   position: relative;
   top: 0;
   bottom: 0;
 }
-.contact-page {
-  height: 100vh;
+.c {
+  height: 110vh;
   position: relative;
-}
-.contact-side1{
-  width: 20px; height:100%;
-  background-color: rgb(84, 138, 255);
-  position: absolute;
+  background-image:url("https://st2.depositphotos.com/1005731/7610/i/950/depositphotos_76109715-stock-photo-high-resolution-abstract-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 .c-wrapper {
   padding: 10vw;
@@ -276,18 +274,37 @@ h4 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 .c-title {
-  font-size: 6vw;
+  font-size: 5vw;
   width: 80%;
-  color: rgb(61, 170, 254);
+  color: rgb(89, 177, 254);
+  background-color: rgba(199, 236, 238,.5);
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 49%, 0% 0%);
+  border-radius: 2vw;
+  padding:1vw;
+  font-family: 'Rubik Microbe', cursive;
+  font-weight: 700;
 }
+
 .c-info-item {
   display: flex;
   align-items: center;
   margin: 8vw 0px;
   width: 70%;
   font-weight: 300;
+  color:rgb(5, 5, 1)
+}
+.c-desc b{
+  font-family: 'Grape Nuts', cursive;
+  font-weight: 800;
+  font-size: 50px;
+  background-color: rgba(249, 202, 36,.5);
+  border-radius: 2vw;
+  color:#0a0a0a;
+  padding:.3vw;
 }
 .c-icon {
   width: 30px; height: 30px;

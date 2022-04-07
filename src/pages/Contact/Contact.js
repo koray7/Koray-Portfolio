@@ -2,7 +2,6 @@ import React from "react";
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { useState } from 'react';
-
 const Contact = () => {
 
     const formRef = useRef()
@@ -27,7 +26,7 @@ const Contact = () => {
                 <div className="c-wrapper">
                     <div className="c-left">
                         <h1 className="c-title">
-                            Let's Connect!!
+                            Let's Connect!
                         </h1>
                             <div className="c-info">
                                 <div className="c-info-item">
@@ -42,17 +41,11 @@ const Contact = () => {
                                     className="c-icon"/>
                                     1403 Norwalk Ln Apt:#??  Austin, TX 78703
                                 </div>
-                                <div className="c-info-item">
-                                    <h3>My Location</h3>
-                                    <img src="https://4.imimg.com/data4/RF/BD/MY-979637/address-verification-service-500x500.png?w=640"
-                                    alt="" 
-                                    className="c-icon"/>
-                                </div>
                             </div>
                     </div>
                     <div className="c-right">
                         <p className="c-desc">
-                            <b>What' your story?</b>Let's get in touch! Any kind of comments, thoughts, ideas, business, please send me an email, will get back to you as soon as possible.
+                            <b>What's your story?</b> Let's get in touch! Any kind of comments, thoughts, ideas, business, please send me an email, will get back to you as soon as possible.
                         </p>
                         <form ref={formRef} onSubmit={handleSubmit}>
                             <input id="input" type="text" placeholder="Name" 
