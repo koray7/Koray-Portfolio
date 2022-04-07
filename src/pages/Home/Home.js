@@ -6,7 +6,10 @@ const Home = () => {
     return(
         <div className="homePage">
             <div className="homePage1">
+                <div className="self-img-div">
                 <img src="https://iili.io/Gveul2.md.jpg" className="img-self" alt='SelfImg' />
+                </div>
+                
                 <h1>Koray Kurtoglu</h1>
                 <h2>Full Stack Web Developer🧑🏻‍💻</h2>
                 <div className="main-page-logo">

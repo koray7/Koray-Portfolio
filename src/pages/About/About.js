@@ -67,4 +67,4 @@ const About = () => {
 }
 
 export default About;
-// style={{ paddingTop: "30%" }}
+

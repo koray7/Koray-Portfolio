@@ -9,12 +9,12 @@ import Home from './pages/Home/Home';
 import Navbar from './components/Navbar';
 import Projects from './pages/Projects/Projects';
 import './App.css';
-
+import Contact from './pages/Contact/Contact'
 
 
 function App() {
   return (
-    <Router>
+    <Router style={{ backgroundColor: "blue", color: "white" }}>
       <Navbar />
       <main>
 
@@ -22,6 +22,7 @@ function App() {
       <Route path="/" element={<Home/>} />
       <Route path="/about" element={<About/>} />
       <Route path="/projects" element={<Projects/>} />
+      <Route path="/contact" element={<Contact />} />
       </Routes>
       
 
