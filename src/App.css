@@ -1,25 +1,42 @@
 
 .navbar-pages {
   text-decoration: none;
-  background-color: rgb(81, 163, 234, .5);
+  background-color: rgba(7, 84, 151, 0.5);
   display: flex;
   justify-content: center;
-  padding: 2vw;
+  padding: 1vw;
   margin-top: 0;
-  /* position: sticky;
-  top: 0; */
 }
 .navbar {
+  position: relative;
+  text-decoration: none;
+  letter-spacing: 0.5px;
   padding: 2vw;
   text-decoration: none;
-  background-color: rgba(250, 250, 250, 0.5);
   margin: .4vw;
   border-radius: 2vw;
+  font-family: 'Square Peg', cursive;
+  font-size: 4vw;
 }
-.navbar:hover {
-  background-color: rgba(248, 188, 188, 0.4);
-  border-radius: 1vw;
+.navbar:after {
+  content: "";
+  position: absolute;
+  background-color: rgba(250, 246, 52, 0.8);
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -0.1vw;
+  transition: .6s;
 }
+.navbar:hover:after {
+  width: 100%;
+}
+
+/* .navbar:hover {
+  background-color: rgba(250, 246, 52, 0.4);
+  border-radius: 1.5vw;
+  padding: -2vw;
+} */
 
 .homePage {
   background-image: url("https://images.unsplash.com/photo-1623520527569-fee1da87f598?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHNvZnR3YXJlJTIwZW5naW5lZXJ8ZW58MHx8MHx8&w=1000&q=80");
