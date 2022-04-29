@@ -26,6 +26,12 @@ const Projects = () => {
                 <span id="app-text">Star Wars</span>
                 </a>
             </div>
+
+            <div id="app">
+                <a href="https://benevolent-cannoli-729006.netlify.app/" target="_blank" rel="noReferrer"><img src="https://i.ibb.co/vVm1PWS/Screen-Shot-2022-04-29-at-15-12-32.png" className="img" alt='Keeper' />
+                <span id="app-text">Keeper</span>
+                </a>
+            </div>
         </div>
     </div>
     )
