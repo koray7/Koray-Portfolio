@@ -56,8 +56,8 @@
   padding-top: 3vw;
 }
 .img{
-  height: 20vw;
-  width: 20vw;
+  height: 15vw;
+  width: 15vw;
   margin: 4vw;
   border-radius: 2vw;
   transition: all .2s ease-in-out;
@@ -129,6 +129,8 @@ h4 {
 #app{
   margin-top: 3vw;
   position: relative;
+  display: flex;
+  flex-direction: row;
   color: white;
   border-radius: 2vw;
   border-bottom: 4mm ridge rgba(211, 220, 50, .6);
@@ -136,7 +138,7 @@ h4 {
 }
 
 #app-text{
-  font-size: 2vw;
+  font-size: 3vw;
   font-family: 'Patrick Hand', cursive;
   position: absolute;
   color: rgb(15, 137, 243);
@@ -411,7 +413,7 @@ form {
 @media only screen and (max-width: 600px) {
   .projectsPage {
     height: 100%;
-    padding-top: 4vw;
+    padding-top: 10vw;
   }
 }
 
@@ -419,4 +421,33 @@ form {
   font-family: 'Permanent Marker', cursive;
   text-shadow: 0 0 15px #06b9f0;
   letter-spacing: 4px;
+}
+
+/* ############################################ */
+
+.project-details {
+  margin-top: 5vw;
+  color:rgb(125, 39, 205);
+  padding-bottom: 1vw;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 2vw;
+  padding: 1vw 1vw 0 1vw;
+}
+.details-header{
+  font-size: 2.3vw;
+  margin: 1vw 0;
+}
+@media only screen and (max-width: 600px) {
+  .project-details {
+    color:rgb(125, 39, 205);
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 2vw;
+    padding: 1vw 1vw 0 1vw;
+  }
+  .details-header {
+    font-size: 4vw;
+  }
+  .details {
+    font-size: 2vw;
+  }
 }
