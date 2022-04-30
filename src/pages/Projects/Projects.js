@@ -23,7 +23,14 @@ const Projects = () => {
                 <a href="https://sad-ptolemy-d0c1c8.netlify.app" target="_blank" rel="noReferrer"><img src="https://iili.io/Gvkoe1.md.png" className="img" alt='War-Game' />
                 <span id="app-text">War Card Game</span>
                 </a>
-                
+                <div className="project-details">
+                    <h3 className="details-header">Technologies</h3>
+                    <h5 className="details">HTML, CSS, JavaScript</h5>
+                    <h3 className="details-header">About</h3>
+                    <p className="details">It's a very simple and fun <u><strong>"card game"</strong></u> where users can shuffle the cards and whoever gets the greater number for that round, gets a point. users can shuffle the cards and play it until there is no card.<br></br>
+                    <br></br> Whoever collects more points on that round, that player would wind the game.
+                    </p>
+                </div>
             </div>
             <div id="app">
                 <a href="https://giphy-search-app-koray.herokuapp.com/" target="_blank" rel="noReferrer"><img src="https://iili.io/Gvk0mX.md.png" className="img" alt='Giphy' />
