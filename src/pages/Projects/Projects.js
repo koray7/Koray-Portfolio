@@ -63,6 +63,14 @@ const Projects = () => {
                 <a href="https://benevolent-cannoli-729006.netlify.app/" target="_blank" rel="noReferrer"><img src="https://i.ibb.co/vVm1PWS/Screen-Shot-2022-04-29-at-15-12-32.png" className="img" alt='Keeper' />
                 <span id="app-text">Keeper</span>
                 </a>
+                <div className="project-details">
+                    <h3 className="details-header">Technologies</h3>
+                    <h5 className="details">HTML, CSS, JavaScript, React.Js, Icons with Material UI, ( Will be Full CRUD application soon )</h5>
+                    <h3 className="details-header">About</h3>
+                    <p className="details"><strong>"The most useful app that I have ever created"</strong> and it's basically an app that user can creat notes and keeps it for the future. It has create and delete button, but it will have also an edit button and I will add Node.Js technology that it would keep the information and save it into a database and when user try to open the app, the information would still be there.<br></br>
+                    <br></br>
+                    I created this app so user can find the best sport type for their life and start to learn about it and practice it every day to bring more qualities in their life.</p>
+                </div>
             </div>
         </div>
     </div>
