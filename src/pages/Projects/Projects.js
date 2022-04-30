@@ -36,11 +36,27 @@ const Projects = () => {
                 <a href="https://giphy-search-app-koray.herokuapp.com/" target="_blank" rel="noReferrer"><img src="https://iili.io/Gvk0mX.md.png" className="img" alt='Giphy' />
                 <span id="app-text">Giphy Search</span>
                 </a>
+                <div className="project-details">
+                    <h3 className="details-header">Technologies</h3>
+                    <h5 className="details">HTML, CSS, JavaScript, React.Js, Bootstrap, API technology, Node.Js</h5>
+                    <h3 className="details-header">About</h3>
+                    <p className="details"><strong>WE ALL LOVE GIPHY</strong>. I created this app so users can search for a Giphy. I used few different technologies that you can pick any topics that you like and app would show hundreds of different type of Giphy<br></br>
+                    <br></br>
+                    </p>
+                </div>
             </div>
             <div id="app">
                 <a href="https://star-wars-app-kk.herokuapp.com/" target="_blank" rel="noReferrer"><img src="https://iili.io/GrHAxI.th.png" className="img" alt='Giphy' />
                 <span id="app-text">Star Wars</span>
                 </a>
+                <div className="project-details">
+                    <h3 className="details-header">Technologies</h3>
+                    <h5 className="details">HTML, CSS, JavaScript</h5>
+                    <h3 className="details-header">About</h3>
+                    <p className="details">One of my first projects that I built and it's called <u><strong>"Star Wars"</strong></u>.I created this project so users can look up some spaceships and get information about that ships and captans<br></br>
+                    <br></br>
+                    </p>
+                </div>
             </div>
 
             <div id="app">
