@@ -67,9 +67,9 @@ const Projects = () => {
                     <h3 className="details-header">Technologies</h3>
                     <h5 className="details">HTML, CSS, JavaScript, React.Js, Icons with Material UI, ( Will be Full CRUD application soon )</h5>
                     <h3 className="details-header">About</h3>
-                    <p className="details"><strong>"The most useful app that I have ever created"</strong> and it's basically an app that user can creat notes and keeps it for the future. It has create and delete button, but it will have also an edit button and I will add Node.Js technology that it would keep the information and save it into a database and when user try to open the app, the information would still be there.<br></br>
+                    <p className="details"><strong>"The most useful app that I have ever created"</strong> and it's basically an app that user can creat notes and keeps it for the future. It has create and delete button, but it will have also an edit button and I will use Node.Js (back-end technology) that it would keep the information after closing the app and save it into a database so when user try to open the app again, the information will still be there.<br></br>
                     <br></br>
-                    I created this app so user can find the best sport type for their life and start to learn about it and practice it every day to bring more qualities in their life.</p>
+                    </p>
                 </div>
             </div>
         </div>
