@@ -11,13 +11,13 @@ const Projects = () => {
                 </a>
 
                 <div className="project-details">
-                    {/* <h3 className="details-header">Technologies</h3>
+                    <h3 className="details-header">Technologies</h3>
                     <h5 className="details">HTML, CSS, JavaScript, React.Js, Bootstrap, API technology, Node.Js</h5>
                     <h3 className="details-header">About</h3>
                     <p className="details">I created this app because I believe that <u><strong>being physically active in life</strong></u>, would brings more qualities in people's day to day living. Everyone has a different life and physical conditions where individuals can't practice most of the sports in their life and it's impossible. But how about if there is a specific sport that you can easily practice in your life and enjoy doing it every day. <br></br>
                     <br></br>
                     I created this app so user can find the best sport type for their life and start to learn about it and practice it every day to bring more qualities in their life.</p>
-                </div> */}
+                </div>
             </div>
             <div id="app">
                 <a href="https://sad-ptolemy-d0c1c8.netlify.app" target="_blank" rel="noReferrer"><img src="https://iili.io/Gvkoe1.md.png" className="img" alt='War-Game' />
