@@ -45,7 +45,7 @@ const Projects = () => {
                     </p>
                 </div>
             </div>
-            {/* <div id="app">
+            <div id="app">
                 <a href="https://star-wars-app-kk.herokuapp.com/" target="_blank" rel="noReferrer"><img src="https://iili.io/GrHAxI.th.png" className="img" alt='Giphy' />
                 <span id="app-text">Star Wars</span>
                 </a>
@@ -57,7 +57,7 @@ const Projects = () => {
                     <br></br>
                     </p>
                 </div>
-            </div> */}
+            </div>
 
             <div id="app">
                 <a href="https://benevolent-cannoli-729006.netlify.app/" target="_blank" rel="noReferrer"><img src="https://i.ibb.co/vVm1PWS/Screen-Shot-2022-04-29-at-15-12-32.png" className="img" alt='Keeper' />
