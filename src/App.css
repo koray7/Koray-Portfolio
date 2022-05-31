@@ -456,3 +456,11 @@ form {
     margin-top: -2vw;
   }
 }
+
+
+.deepNote {
+  position: absolute;
+  display: flex;
+  float: right;
+  color: #06b9f0;
+}
