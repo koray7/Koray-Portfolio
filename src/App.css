@@ -256,12 +256,11 @@ h4 {
   display: flex;
   flex-direction: column;
   right: 0;
-  border: 1px solid rgba(250, 250, 250, 0.3);
+  border: 1px solid rgba(250, 250, 250, 0.2);
   border-radius: 1vw;
   background-color: rgb(254, 241, 87,.2);
-  margin: 2vw .5vw 2vw 3vw;
+  margin: 2.7vw 10vw 2vw 3vw;
   padding: .2vw;
-  border: 1px solid red;
 }
 @media screen and (max-width: 600px) {
   .timeDiv{
@@ -488,6 +487,8 @@ form {
   font-size: 1.2vw;
   background-color:rgb(247, 245, 227, .4);
   border-radius: 1vw;
-  border: 1px solid red;
-  margin-top: 4vw;
+  margin: 7vw 0 -2vw 65vw;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
 }
