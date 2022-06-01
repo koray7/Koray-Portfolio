@@ -259,8 +259,9 @@ h4 {
   border: 1px solid rgba(250, 250, 250, 0.3);
   border-radius: 1vw;
   background-color: rgb(254, 241, 87,.2);
-  margin: 3vw .5vw 2vw 3vw;
+  margin: 2vw .5vw 2vw 3vw;
   padding: .2vw;
+  border: 1px solid red;
 }
 @media screen and (max-width: 600px) {
   .timeDiv{
@@ -282,17 +283,25 @@ h4 {
   }
 }
 .time {
-  font-size: 2.5vw;
+  font-size: 2vw;
   color:rgb(86, 150, 206);
   border-radius: 2vw;
   font-weight: 700;
   margin: -0.4vw .5vw .3vw .5vw;
+  position: relative;
+  justify-content: center;
+  display: flex;
+  text-align: center;
 }
 .day{
   font-size: 2vw;
-  color:rgb(249, 242, 167);
+  color:rgb(71, 71, 71);
   border-radius: 2vw;
   margin: -1vw 0 0 .7vw;
+  position: relative;
+  justify-content: center;
+  display: flex;
+  text-align: center;
 }
 
 
@@ -472,9 +481,13 @@ form {
   }
 }
 
-.deepNote {
-  position: relative;
-  color: #050505;
+#deepNote {
+  font-family: 'Gloria Hallelujah', cursive;
+  color:rgb(125, 39, 205);
   text-align: center;
-  font-size: 1.4vw;
+  font-size: 1.2vw;
+  background-color:rgb(247, 245, 227, .4);
+  border-radius: 1vw;
+  border: 1px solid red;
+  margin-top: 4vw;
 }

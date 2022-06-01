@@ -27,8 +27,8 @@ const Navbar = () => {
             <div className="timeDiv">
                     <h1 className="time">{time}</h1>
                     <h3 className="day">{today}</h3>
-                    <span className="deepNote">The most important thing in life, use it wisely..</span>
             </div>
+            <p id="deepNote">"Time" is the most important thing in life, use it wisely..</p>
         </nav>
     )
 }
