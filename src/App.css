@@ -264,16 +264,16 @@ h4 {
 }
 @media screen and (max-width: 600px) {
   .timeDiv{
-    margin: 4vw 10vw 0 2vw;
+    margin: 5.6vw 11vw 0 2vw;
     background: none;
     border: none;
   }
-  .deepNote{
-    margin-top: 20vw;
-  }
 }
-
-
+@media screen and (max-width: 600px) {
+.deepNote{
+  top: 3.6vw;
+}
+}
 
 .time {
   font-size: 2vw;
