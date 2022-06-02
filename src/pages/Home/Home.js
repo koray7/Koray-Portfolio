@@ -10,7 +10,7 @@ const Home = () => {
                 <img src="https://iili.io/Gveul2.md.jpg" className="img-self" alt='SelfImg' />
                 </div>
                 
-                <h1 className="myName">Koray Kurtoglu</h1>
+                <h1 className="myName">Koray Adams</h1>
                 <h2>Full Stack Web Developer🧑🏻‍💻</h2>
                 <div className="main-page-logo">
                     <img src="https://www.html5rocks.com/static/demos/svgmobile_fundamentals/images/html5-640x960.jpg" id="social-logo" alt='Html' />
