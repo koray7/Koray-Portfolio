@@ -296,7 +296,7 @@ h4 {
   display: flex;
   text-align: center;
 }
-/* .deepNote {
+.deepNote {
   font-family: 'Gloria Hallelujah', cursive;
   color:rgb(125, 39, 205);
   text-align: center;
@@ -307,7 +307,7 @@ h4 {
   position: absolute;
   display: flex;
   flex-direction: column;
-} */
+}
 
 /* ###########################  */
 
