@@ -301,7 +301,7 @@ h4 {
   color:rgb(125, 39, 205);
   text-align: center;
   font-size: 1.1vw;
-  background-color:rgb(247, 245, 227, .4);
+  background-color:rgba(244, 239, 188, 0.4);
   border-radius: 1vw;
   margin: 7vw -1vw -2vw 65vw;
   position: absolute;
