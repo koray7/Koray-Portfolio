@@ -276,6 +276,7 @@ h4 {
 }
 
 .time {
+  font-family: 'Caveat', cursive;
   font-size: 2vw;
   color:rgb(86, 150, 206);
   border-radius: 2vw;
@@ -287,6 +288,7 @@ h4 {
   text-align: center;
 }
 .day{
+  font-family: 'Indie Flower', cursive;
   font-size: 1.8vw;
   color:rgb(76, 82, 109);
   border-radius: 2vw;
