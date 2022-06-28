@@ -25,12 +25,6 @@ const About = () => {
                     <h6 className="about-page-education">
                     Full Stack Web Development | SEPTEMBER 2021-MARCH 2022
                     </h6>
-                    <h5 className="about-page-education">
-                        AKDENIZ UNIVERSITY
-                    </h5>
-                    <h6 className="about-page-education">
-                    Business and Hotel Management | Turkey | JULY 2011-JULY 2015
-                    </h6>
                 </div>
                 <div className="experiences">
                     <h3 className="about-page-topics">Experiences</h3>
