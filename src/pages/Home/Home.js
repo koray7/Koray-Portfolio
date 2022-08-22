@@ -47,7 +47,7 @@ const Home = () => {
           />
 
           <img
-            src="https://i0.wp.com/useforcode.com/wp-content/uploads/2021/04/225-2254691_9kib-354x415-unnamed-mongodb-logo-svg.jpg?fit=820%2C454&ssl=1"
+            src="https://www.fosslinux.com/wp-content/uploads/2022/01/what-is-mongoDB.png"
             id="social-logo"
             alt="MongoDB"
           />
