@@ -1,37 +1,41 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom"
-import '../App.css';
-
+import { Link } from "react-router-dom";
+import "../App.css";
 
 const Navbar = () => {
+  const now = new Date().toLocaleTimeString();
+  let today = new Date().toLocaleDateString();
 
-    const now = new Date().toLocaleTimeString();
-    let today = new Date().toLocaleDateString();
-    
-    setInterval(timeNow, 1000);
+  setInterval(timeNow, 1000);
 
-    const [time, setTime] = useState(now)
-    
-    function timeNow() {
+  const [time, setTime] = useState(now);
+
+  function timeNow() {
     const showTime = new Date().toLocaleTimeString();
-        setTime(showTime)
-    }
+    setTime(showTime);
+  }
 
-    return (
-        <nav className="navbar-pages">
-            <Link className="navbar" to="/">Home</Link>
-            <Link className="navbar" to="/about">About</Link>
-            <Link className="navbar" to="/projects">Projects</Link>
-            <Link className="navbar" to="/contact">Contact</Link>
+  return (
+    <nav className="navbar-pages">
+      <Link className="navbar" to="/">
+        Home
+      </Link>
+      <Link className="navbar" to="/about">
+        About
+      </Link>
+      <Link className="navbar" to="/projects">
+        Projects
+      </Link>
+      <Link className="navbar" to="/contact">
+        Contact
+      </Link>
 
-            <div className="timeDiv">
-                    <h1 className="time">{time}</h1>
-                    <h3 className="day">{today}</h3>
-            </div>
-            <p className="deepNote">"Time" is the most important thing in life, use it wisely..⏳</p>
-        </nav>
-    )
-}
-
+      <div className="timeDiv">
+        <h1 className="time">{time}</h1>
+        <h3 className="day">{today}</h3>
+      </div>
+    </nav>
+  );
+};
 
 export default Navbar;
