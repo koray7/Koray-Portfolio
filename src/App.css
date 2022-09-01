@@ -322,13 +322,17 @@ h4 {
   bottom: 0;
 }
 .c {
-  height: 100%;
+  height: 100vh;
+  width: 100%;
   position: relative;
   background-image: url("https://www.itl.cat/pngfile/big/92-923175_31-white-background-hd-high-resolution-desktop-wallpaper.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  background-size: cover;
 }
 .c-wrapper {
+  height: 100%;
+  width: 100%;
   padding: 10vw;
   display: flex;
 }
@@ -433,8 +437,9 @@ form {
 
 @media only screen and (max-width: 600px) {
   .homePage {
-    height: 95vh;
-    padding-top: 14vw;
+    height: 100%;
+    width: 100%;
+    padding-top: 10vw;
   }
 }
 
@@ -492,13 +497,11 @@ form {
 #home::before {
   content: "";
   position: relative;
-  top: 0;
-  right: 0;
   background-image: url("https://iili.io/Gveul2.md.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 900px;
+  height: 90vh;
   z-index: -1;
   opacity: 0.8;
 }
@@ -529,7 +532,25 @@ form {
   display: flex;
 }
 #pic img {
-  width: 400px;
-  height: 400px;
+  width: 30vw;
+  height: 30vw;
   border-radius: 3vw;
+}
+
+@media only screen and (max-width: 600px) {
+  #home {
+    margin-top: -14vw;
+    width: 100%;
+    height: 170vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #about {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0 auto;
+  }
 }
