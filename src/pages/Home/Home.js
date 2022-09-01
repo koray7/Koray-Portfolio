@@ -64,12 +64,13 @@ const Home = () => {
               <br></br>● SportForLife-ReactJS, bootstrap, API technology,
               Express, Heroku for deployment.<br></br>● RightAway-Python, Django
               and SQL database.
+              <br></br>●And Over 15 More Projects..
             </h5>
           </div>
           <div className="contact">
             <h3 className="about-page-topics">Contact information</h3>
             <a
-              href="https://www.linkedin.com/in/koray-kurtoglu/"
+              href="https://www.linkedin.com/in/koray-adams/"
               target="_blank"
               rel="noReferrer"
             >
