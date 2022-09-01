@@ -15,9 +15,13 @@ const Home = () => {
       <section id="about">
         <h1 className="headings">About Me</h1>
         <div id="pic">
-          <img src="https://iili.io/Gveul2.md.jpg" id="intro" alt="SelfImg" />
+          <img
+            src="https://i.ibb.co/WDcXytJ/IMG-9528.jpg"
+            id="intro"
+            alt="SelfImg"
+          />
           <div>
-            <h2>Koray Adams</h2>
+            <h2 className="myName">Koray Adams</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
           </div>
         </div>
