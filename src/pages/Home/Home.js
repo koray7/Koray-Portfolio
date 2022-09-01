@@ -10,6 +10,7 @@ const Home = () => {
           </h1>
         </div>
       </section>
+      <section></section>
 
       <div className="aboutPage">
         <div>
@@ -20,7 +21,7 @@ const Home = () => {
           />
         </div>
         <div className="about-page-bio">
-          <span id="about-page-text">Who is "Koray Kurtoglu?"</span>
+          <span id="about-page-text">Who is "Koray Adams?"</span>
           <br></br>
           <h5 className="about-page-text1">
             Born and raised in Turkey. I studied Business and Hotel Management
