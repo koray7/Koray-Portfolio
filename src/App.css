@@ -50,6 +50,10 @@
   padding-top: 4vw;
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: flex-end;
 }
 .homePage1 {
   padding-top: 3vw;
@@ -477,4 +481,48 @@ form {
     font-size: 5vw;
     margin-top: -2vw;
   }
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+}
+#home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-image: url("https://iili.io/Gveul2.md.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 5vw;
+  width: 100vw;
+  height: 1050px;
+  z-index: -1;
+  opacity: 0.8;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 40%;
+  left: 5%;
+}
+.headings {
+  font-family: century;
+  font-size: 3vw;
+}
+#about {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: flex-end;
+}
+#pic {
+  display: flex;
+}
+#pic img {
+  width: 575px;
+  height: 400px;
 }
