@@ -554,3 +554,8 @@ form {
     margin-bottom: 0 auto;
   }
 }
+.writer {
+  margin: 25vw 0 0 5vw;
+  color: rgba(255, 255, 255);
+  font-size: 2.5vw;
+}

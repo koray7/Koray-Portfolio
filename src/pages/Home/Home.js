@@ -1,16 +1,29 @@
 import React, { useState } from "react";
+import Typewriter from "typewriter-effect";
+
 const Home = () => {
   return (
     <div className="homePage">
       <section id="home">
         <div className="main">
-          <h1 className="headings">
-            {" "}
-            Hello.. <br></br> Welcome to my page!
-          </h1>
+          <section className="writer">
+            <Typewriter
+              onInit={(typewriter) => {
+                typewriter
+                  .typeString("Hello..")
+                  .pauseFor(2000)
+                  .deleteAll()
+                  .typeString("My name is Koray Adams")
+                  .pauseFor(2000)
+                  .deleteAll()
+                  .typeString("I'm a Software Developer..")
+                  .pauseFor(2000)
+                  .start();
+              }}
+            />
+          </section>
         </div>
       </section>
-      <section></section>
 
       <div className="aboutPage">
         <div>
