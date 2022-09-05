@@ -611,11 +611,14 @@ form {
     font-size: 4vw;
   }
   .wrapper-logo {
-    margin: 2vw;
+    margin-top: 10vw;
     border-radius: 0;
     padding: 0;
     width: 92vw;
     height: 10vw;
     border-radius: 100px;
+  }
+  .slider-area {
+    margin-top: -60vw;
   }
 }
