@@ -30,14 +30,14 @@ const Home = () => {
           <div className="logo-item">
             <img
               className="logo"
-              src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png"
+              src="https://assets.stickpng.com/thumbs/5847f5bdcef1014c0b5e489c.png"
               alt="HTML"
             />
           </div>
           <div className="logo-item">
             <img
               className="logo"
-              src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
               alt="CSS"
             />
           </div>
