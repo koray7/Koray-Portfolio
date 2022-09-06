@@ -30,7 +30,7 @@ const Home = () => {
           <div className="logo-item">
             <img
               className="logo"
-              src="https://assets.stickpng.com/thumbs/5847f5bdcef1014c0b5e489c.png"
+              src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png"
               alt="HTML"
             />
           </div>
