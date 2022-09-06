@@ -24,7 +24,67 @@ const Home = () => {
           </section>
         </div>
       </section>
-
+      <div className="slider-area">
+        <h2>Experiences with programming languages</h2>
+        <div className="wrapper-logo">
+          <div className="logo-item">
+            <img
+              className="logo"
+              src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png"
+              alt="HTML"
+            />
+          </div>
+          <div className="logo-item">
+            <img
+              className="logo"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
+              alt="CSS"
+            />
+          </div>
+          <div className="logo-item">
+            <img
+              className="logo"
+              src="https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png"
+              alt="JavaScript"
+            />
+          </div>
+          <div className="logo-item">
+            <img
+              className="logo"
+              src="https://cdn-icons-png.flaticon.com/512/3161/3161158.png"
+              alt="SQL Database"
+            />
+          </div>
+          <div className="logo-item">
+            <img
+              className="logo"
+              src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png"
+              alt="GIT"
+            />
+          </div>
+          <div className="logo-item">
+            <img
+              className="logo"
+              src="https://cdn.icon-icons.com/icons2/2699/PNG/512/atlassian_jira_logo_icon_170512.png"
+              alt="JIRA"
+            />
+          </div>
+          <div className="logo-item">
+            <img
+              className="logo"
+              src="https://spemer.com/img/works/jekyll/github.png"
+              alt="GITHUB"
+            />
+          </div>
+          <div className="logo-item">
+            <img
+              className="logo"
+              src="https://cdn-icons-png.flaticon.com/512/1183/1183672.png"
+              alt="React.Js"
+            />
+          </div>
+        </div>
+      </div>
       <div className="aboutPage">
         <div>
           <img
