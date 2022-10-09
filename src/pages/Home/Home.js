@@ -65,7 +65,7 @@ const Home = () => {
           <div className="logo-item">
             <img
               className="logo"
-              src="https://cdn.icon-icons.com/icons2/2699/PNG/512/atlassian_jira_logo_icon_170512.png"
+              src="https://zappysys.com/blog/wp-content/uploads/2018/07/jira-logo.jpg"
               alt="JIRA"
             />
           </div>
