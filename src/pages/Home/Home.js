@@ -88,7 +88,7 @@ const Home = () => {
       <div className="aboutPage">
         <div>
           <img
-            src="https://i.postimg.cc/Hxnc7r56/IMG-9528.jpg"
+            src="https://i.postimg.cc/NjKf7y32/3-A51-D8-C7-FEF3-44-D0-9203-27-A7-BFB1-BCA6.jpg"
             className="self-img"
             alt="Self-Img"
           />

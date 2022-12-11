@@ -5,7 +5,7 @@ const About = () => {
     <div className="aboutPage">
       <div>
         <img
-          src="https://i.postimg.cc/Hxnc7r56/IMG-9528.jpg"
+          src="https://i.postimg.cc/WbK5zCTL/7-DAEF4-C6-A98-F-4-D69-BE5-D-2629-F25464-ED.jpg"
           className="self-img"
           alt="Self-Img"
         />
