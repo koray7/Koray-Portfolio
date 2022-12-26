@@ -39,7 +39,7 @@ const Contact = () => {
                                     <img src="https://4.imimg.com/data4/RF/BD/MY-979637/address-verification-service-500x500.png?w=640"
                                     alt="" 
                                     className="c-icon"/>
-                                    1403 Norwalk Ln Apt:#??  Austin, TX 78703
+                                    Austin, TX 78741
                                 </div>
                             </div>
                     </div>
