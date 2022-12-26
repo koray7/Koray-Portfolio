@@ -65,7 +65,7 @@ const Home = () => {
           <div className="logo-item">
             <img
               className="logo"
-              src="https://cdn.icon-icons.com/icons2/2699/PNG/512/atlassian_jira_logo_icon_170512.png"
+              src="https://zappysys.com/blog/wp-content/uploads/2018/07/jira-logo.jpg"
               alt="JIRA"
             />
           </div>
@@ -88,7 +88,7 @@ const Home = () => {
       <div className="aboutPage">
         <div>
           <img
-            src="https://i.postimg.cc/Hxnc7r56/IMG-9528.jpg"
+            src="https://i.postimg.cc/NjKf7y32/3-A51-D8-C7-FEF3-44-D0-9203-27-A7-BFB1-BCA6.jpg"
             className="self-img"
             alt="Self-Img"
           />

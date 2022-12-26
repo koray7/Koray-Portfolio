@@ -5,7 +5,7 @@ const About = () => {
     <div className="aboutPage">
       <div>
         <img
-          src="https://i.postimg.cc/Hxnc7r56/IMG-9528.jpg"
+          src="https://i.postimg.cc/WbK5zCTL/7-DAEF4-C6-A98-F-4-D69-BE5-D-2629-F25464-ED.jpg"
           className="self-img"
           alt="Self-Img"
         />
@@ -34,6 +34,10 @@ const About = () => {
           </h5>
           <h6 className="about-page-education">
             Full Stack Web Development | SEPTEMBER 2021-MARCH 2022
+          </h6>
+          <h5 className="about-page-education">AKDENIZ UNIVERSITY</h5>
+          <h6 className="about-page-education">
+            Business and Hotel Management | July 2011-July 2015
           </h6>
         </div>
         <div className="experiences">
