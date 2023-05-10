@@ -91,7 +91,7 @@ const About = () => {
             />
           </a>
           <a
-            href="https://docs.google.com/document/d/1tncNRrMLRyGLbMTf7anEV4pxORd_C1YuTkgOaUQqRhg/edit?usp=sharing"
+            href="https://www.canva.com/design/DAFfL9CkhHM/X1Im_lThadAFYBnNHbmD-w/view?utm_content=DAFfL9CkhHM&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview"
             download="Koray-Resume.pdf"
             target="_blank"
             rel="noReferrer"
